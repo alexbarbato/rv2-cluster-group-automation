@@ -6,5 +6,6 @@ metadata:
 spec:
   storageClassName: generic
   storageSize: 10G
+  monitorStorageClassName: generic
   highAvailability:
     enabled: false
