@@ -1,0 +1,10 @@
+apiVersion: sql.tanzu.vmware.com/v1
+kind: Postgres
+metadata:
+  name: navy-team-1
+  namespace: boats
+spec:
+  storageClassName: generic
+  storageSize: 10G
+  highAvailability:
+    enabled: false
